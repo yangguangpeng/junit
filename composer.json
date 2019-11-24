@@ -1,0 +1,17 @@
+{
+    "name": "perry\/junit",
+    "description": "A simplified version of the laravel framework unit test",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "perry",
+            "email": "646138471@qq.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Perry\\Junit\\": "src"
+        }
+    }
+}
