@@ -12,7 +12,7 @@ $ composer require perry/junit
 ## Usage
 在laravel的config/app.php数组加上Perry\Junit\Providers\JunitServiceProvider::class
 
-访问方法:
+访问路由:
 域名/junit
 
 ## Contributing
