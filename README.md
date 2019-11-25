@@ -10,8 +10,8 @@ $ composer require perry/junit -vvv
 ```
 
 ## Usage
+在laravel的config/app.php数组加上Perry\Junit\Providers\JunitServiceProvider::class
 
-TODO
 
 ## Contributing
 
