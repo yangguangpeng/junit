@@ -3,15 +3,17 @@
 <p align="center"> A simplified version of the laravel framework unit test.</p>
 
 
-## Installing
+## Installing，按照命令
 
 ```shell
-$ composer require perry/junit -vvv
+$ composer require perry/junit
 ```
 
 ## Usage
 在laravel的config/app.php数组加上Perry\Junit\Providers\JunitServiceProvider::class
 
+访问方法:
+域名/junit
 
 ## Contributing
 
