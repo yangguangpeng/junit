@@ -23,7 +23,7 @@ class JunitController extends Controller{
         $object = new $class();// 创建实际的类
         $param = ($param == "") ? [] : explode('|', $param) ;// 参数的处理
         $data = call_user_func_array([$object, $action], $param);// 最终的执行
-        return (is_array($data)) ? json_encode($data) : '';
+        return (is_array($data)) ? json_encode($data) : dd($data);
     }
 
 }
